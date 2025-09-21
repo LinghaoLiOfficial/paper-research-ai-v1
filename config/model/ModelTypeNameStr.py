@@ -1,0 +1,18 @@
+from config.model.ModelTypeLabelStr import ModelTypeLabelStr
+
+
+# 模型类型中文名
+class ModelTypeNameStr:
+    MACHINE_LEARNING_SUPERVISED_MODEL = "机器学习-监督模型"
+    DEEP_LEARNING_SUPERVISED_MODEL = "深度学习-监督模型"
+    DEEP_LEARNING_SELF_SUPERVISED_MODEL = "深度学习-自监督模型"
+    DEEP_LEARNING_CONTRASTIVE_SELF_SUPERVISED_MODEL = "深度学习-对比自监督模型"
+
+    @classmethod
+    def mapping(cls):
+        return {
+            ModelTypeLabelStr.MACHINE_LEARNING_SUPERVISED_MODEL: cls.MACHINE_LEARNING_SUPERVISED_MODEL,
+            ModelTypeLabelStr.DEEP_LEARNING_SUPERVISED_MODEL: cls.DEEP_LEARNING_SUPERVISED_MODEL,
+            ModelTypeLabelStr.DEEP_LEARNING_SELF_SUPERVISED_MODEL: cls.DEEP_LEARNING_SELF_SUPERVISED_MODEL,
+            ModelTypeLabelStr.DEEP_LEARNING_CONTRASTIVE_SELF_SUPERVISED_MODEL: cls.DEEP_LEARNING_CONTRASTIVE_SELF_SUPERVISED_MODEL,
+        }

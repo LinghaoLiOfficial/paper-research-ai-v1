@@ -1,0 +1,10 @@
+external/*
+storage/*
+test/
+venv/
+data/*
+run.bat
+waitress_server.py
+.idea
+.git
+configs/

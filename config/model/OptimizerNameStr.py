@@ -1,0 +1,5 @@
+
+class OptimizerNameStr:
+
+    Adam = "Adam"
+
