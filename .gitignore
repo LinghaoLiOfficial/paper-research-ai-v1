@@ -8,3 +8,4 @@ waitress_server.py
 .idea
 .git
 configs/
+.env
