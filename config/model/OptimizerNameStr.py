@@ -1,5 +1,0 @@
-
-class OptimizerNameStr:
-
-    Adam = "Adam"
-
